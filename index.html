@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&family=Inter&family=Roboto&family=Source+Sans+Pro&display=swap&_v=20220705112328"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220705112328">
+    <title>Мій сайт</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+    <div class="header__top">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <img src="img/logo.svg" alt="Image" class="header__image">
+            </a>
+            <div class="header__content">
+                <div class="header__phone-links">
+                    <a href="tel:+78126605054" class="header__phone">+7 (812) 660-50-54</a>
+                    <a href="tel:+79581119503" class="header__phone">+7 (958) 111-95-03</a>
+                </div>
+                <p class="header__text">Пн-вс: с 10:00 до 21:00</p>
+            </div>
+            <div class="header__links">
+                <form action="#" data-view-click class="header__form">
+                    <div class="header__label">
+                        <button class="header__btn-search">
+                            <img src="img/icons/search-icon.svg" alt="Icon" class="header__icon">
+                        </button>
+                        <p class="header__input">Поиск</p>
+                    </div>
+                </form>
+                <a href="#" class="header__link icon">
+                    <img src="img/icons/eye-icon.svg" alt="Icon" class="header__icon">
+                </a>
+                <a href="#" class="header__link icon">
+                    <img src="img/icons/like-icon.svg" alt="Icon" class="header__icon">
+                </a>
+                <a href="#" class="header__link icon">
+                    <img src="img/icons/compare-icon.svg" alt="Icon" class="header__icon">
+                </a>
+                <a href="#" class="header__link icon bascet">
+                    <img src="img/icons/bascet-icon.svg" alt="Icon" class="header__icon">
+                </a>
+                <a data-popup-link="1" href="#" class="header__btn btn-blue">Войти</a>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <div class="header__container">
+            <a data-spoler-link="1" href="#" class="header__catalog">
+                <img src="img/icons/menu-icon.svg" alt="Icon" class="header__icon">
+                Каталог товаров
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__link">О компании</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Акции</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Рассрочка 0|0|18</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Сервис и гарантия</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Опт/дропшиппинг</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="header__open-input">
+    <div class="header-input__container">
+        <form action="#" class="header-input__form">
+            <input type="text" class="header-input__input" placeholder="Введите запрос, например «Smart balance»">
+            <a href="#" class="header-input__close">
+                <img src="img/icons/exit-icon.svg" alt="Icon" class="header-input__icon">
+            </a>
+        </form>
+    </div>
+    <div class="header-input__shadow"></div>
+</div>
+
+<div data-popup="1" class="header__popup-sign-in popup">
+    <div data-popup-shadow="1" class="header__popup-shadow"></div>
+    <div class="header__popup-block">
+        <div class="header__popup-top">
+            <h3 class="header__popup-title">Вход</h3>
+            <a data-popup-exit="1" href="#" class="header__popup-exit">
+                <img src="img/icons/exit-icon.svg" alt="Icon" class="header__popup-icon">
+            </a>
+        </div>
+        <form action="#" class="header__popup-form">
+            <label for="header-popup-mail" class="header__popup-label">
+                Эл. почта или телефон
+                <label for="header-popup-mail" class="header__popup-label-input-mail aright wrong">
+                    <input id="header-popup-mail" type="text" class="header__popup-input">
+                </label>
+            </label>
+            <label for="header-popup-password" class="header__popup-label">
+                Пароль
+                <label for="header-popup-password" class="header__popup-label-input aright">
+                    <img src="img/icons/path-icon.svg" alt="Icon" class="header__popup-path-icon">
+                    <input data-view-password-input="1" id="header-popup-password" type="password"
+                        class="header__popup-input-password">
+                    <a data-view-password-button="1" href="#" class="header__popup-eye active"></a>
+                </label>
+            </label>
+            <a href="#" class="header__popup-link"><span>Забыли пароль?</span></a>
+            <label for="header-popup-checkbox" class="header__popup-text-checkbox">
+                <label data-check-box-label="01" for="header-popup-checkbox" class="header__popup-checkbox">
+                    <input data-check-box-input="01" id="header-popup-checkbox" type="checkbox"
+                        class="header__popup-checkbox-input">
+                </label>
+                Запомнить меня
+            </label>
+            <button class="header__popup-btn btn-blue">Войти</button>
+            <a href="#" data-popup-link="2" class="header__popup-link-bottom">Зарегистрироваться</a>
+        </form>
+    </div>
+</div>
+
+<div data-popup="2" class="header__popup-sign-in popup">
+    <div data-popup-shadow="2" class="header__popup-shadow"></div>
+    <div class="header__popup-block">
+        <div class="header__popup-top">
+            <h3 class="header__popup-title">Регистрация</h3>
+            <a data-popup-exit="2" href="#" class="header__popup-exit">
+                <img src="img/icons/exit-icon.svg" alt="Icon" class="header__popup-icon">
+            </a>
+        </div>
+        <form action="#" class="header__popup-form">
+            <label for="header-popup-mail" class="header__popup-label">
+                Имя
+                <label for="header-popup-mail" class="header__popup-label-input-mail wrong">
+                    <input id="header-popup-mail" type="text" class="header__popup-input">
+                </label>
+            </label>
+            <label for="header-popup-mail" class="header__popup-label">
+                Эл. почта или телефон
+                <label for="header-popup-mail" class="header__popup-label-input-mail aright">
+                    <input id="header-popup-mail" type="text" class="header__popup-input">
+                </label>
+            </label>
+            <label for="header-popup-mail" class="header__popup-label">
+                Номер телефона
+                <label for="header-popup-mail" class="header__popup-label-input-mail">
+                    <input id="header-popup-mail" type="text" class="header__popup-input">
+                </label>
+            </label>
+            <label for="header-popup-password" class="header__popup-label">
+                Придумайте пароль
+                <label for="header-popup-password" class="header__popup-label-input aright">
+                    <img src="img/icons/path-icon.svg" alt="Icon" class="header__popup-path-icon">
+                    <input data-view-password-input="1" id="header-popup-password" type="password"
+                        class="header__popup-input-password">
+                    <a data-view-password-button="1" href="#" class="header__popup-eye active"></a>
+                </label>
+            </label>
+            <a href="#" class="header__popup-link">Регистрируясь, вы соглашаетесь с <span>пользовательским
+                    соглашением</span></a>
+            <button class="header__popup-btn btn-blue">Зарегистрироваться</button>
+            <a href="#" class="header__popup-link-bottom">Я уже зарегистрирован</a>
+        </form>
+    </div>
+</div>
+
+<div data-popup="3" class="header__window-menu popup">
+    <div data-popup-shadow="3" class="header__window-menu-shadow"></div>
+    <div class="header__window-menu-block">
+        <div class="header__window-top">
+            <h2 class="header__window-title">Каталог</h2>
+            <a data-popup-exit="3" href="#" class="header__window-exit">
+                <img src="img/icons/exit-icon.svg" alt="Icon" class="header__icon">
+            </a>
+        </div>
+        <div class="header__window-content">
+            <ul class="header__window-list">
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image1.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Гироскутеры
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image2.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Электросамокаты
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image3.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Моноколеса
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image10.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Сигвеи и мини-сигвеи
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image4.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Электроскутеры
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image5.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Электровелосипеды
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image6.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Электромобили
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image7.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Электроскейты
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image8.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Аксессуары
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image9.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Умные игрушки
+                    </a>
+                </li>
+                <li class="header__window-item">
+                    <a href="#" class="header__window-link">
+                        <div class="header__window-media">
+                            <img src="img/catalog/image11.svg" alt="Icon" class="header__window-icon">
+                        </div>
+                        Smart Watch
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-popup="4" class="header__window-menu popup">
+    <div data-popup-shadow="4" class="header__window-menu-shadow"></div>
+    <div class="header__window-menu-block">
+        <div class="header__window-top">
+            <h2 class="header__window-title">Ещё</h2>
+            <a data-popup-exit="4" href="#" class="header__window-exit">
+                <img src="img/icons/exit-icon.svg" alt="Icon" class="header__icon">
+            </a>
+        </div>
+        <div class="header__window-icons">
+            <a href="#" class="header__window-icon-link">
+                <img src="img/icons/eye-icon.svg" alt="Icon" class="header__window-icon">
+                <span class="header__window-length">23</span>
+            </a>
+            <a href="#" class="header__window-icon-link">
+                <img src="img/icons/like-active-icon.svg" alt="Icon" class="header__window-icon">
+                <span class="header__window-length">23</span>
+            </a>
+            <a href="#" class="header__window-icon-link">
+                <img src="img/icons/compare-icon.svg" alt="Icon" class="header__window-icon">
+                <span class="header__window-length">1</span>
+            </a>
+        </div>
+        <ul class="header__window-list">
+            <li class="header__window-item-row">О компании</li>
+            <li class="header__window-item-row">Акции</li>
+            <li class="header__window-item-row">Рассрочка 0–0-12</li>
+            <li class="header__window-item-row">Сервис и ремонт</li>
+            <li class="header__window-item-row">Опт/дропшиппинг</li>
+            <li class="header__window-item-row">Контакты</li>
+        </ul>
+    </div>
+</div>
+
+<div data-popup="5" class="header__window-menu popup">
+    <div data-popup-shadow="5" class="header__window-menu-shadow"></div>
+    <div class="header__window-menu-block">
+        <div class="header__window-top">
+            <h2 class="header__window-title">Поиск</h2>
+            <a data-popup-exit="5" href="#" class="header__window-exit">
+                <img src="img/icons/exit-icon.svg" alt="Icon" class="header__icon">
+            </a>
+        </div>
+        <form action="#" class="header__window-form">
+            <input type="text" class="header__window-input" placeholder="Введите запрос, например «Smart balance»">
+        </form>
+    </div>
+</div>
+		<main class="main">
+			<section class="hero">
+    <div class="hero__container">
+        <div data-spoler="1" class="hero__catalog active">
+            <ul class="hero__list">
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image1.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Гироскутеры</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image2.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Электросамокаты</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image3.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Моноколеса</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image10.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Сигвеи и мини-сигвеи</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image4.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Электроскутеры</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image5.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Электровелосипеды</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image6.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Электроскейты</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image7.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Электромобили</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image8.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Аксессуары</span>
+
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image9.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Умные игрушки</span>
+                    </a>
+                </li>
+                <li class="hero__item">
+                    <a href="#" class="hero__link">
+                        <img src="img/catalog/image11.svg" alt="Icon" class="hero__icon">
+                        <span class="hero__text">Smart Watch</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="hero__content">
+            <div class="hero__swiper">
+                <div class="hero__wrapper swiper-wrapper">
+                    <div class="hero__slide swiper-slide">
+                        <div class="hero__slide-content">
+                            <h1 class="hero__slide-title">Apple Watch
+                                Series 6</h1>
+                            <p class="hero__slide-text">уже в наличии</p>
+                        </div>
+                        <div class="hero__slide-media">
+                            <img src="img/slider.png" alt="Image" class="hero__slide-image">
+                        </div>
+                    </div>
+                    <div class="hero__slide swiper-slide">
+                        <div class="hero__slide-content">
+                            <h1 class="hero__slide-title">Apple Watch
+                                Series 6</h1>
+                            <p class="hero__slide-text">уже в наличии</p>
+                        </div>
+                        <div class="hero__slide-media">
+                            <img src="img/slider.png" alt="Image" class="hero__slide-image">
+                        </div>
+                    </div>
+                    <div class="hero__slide swiper-slide">
+                        <div class="hero__slide-content">
+                            <h1 class="hero__slide-title">Apple Watch
+                                Series 6</h1>
+                            <p class="hero__slide-text">уже в наличии</p>
+                        </div>
+                        <div class="hero__slide-media">
+                            <img src="img/slider.png" alt="Image" class="hero__slide-image">
+                        </div>
+                    </div>
+                    <div class="hero__slide swiper-slide">
+                        <div class="hero__slide-content">
+                            <h1 class="hero__slide-title">Apple Watch
+                                Series 6</h1>
+                            <p class="hero__slide-text">уже в наличии</p>
+                        </div>
+                        <div class="hero__slide-media">
+                            <img src="img/slider.png" alt="Image" class="hero__slide-image">
+                        </div>
+                    </div>
+                    <div class="hero__slide swiper-slide">
+                        <div class="hero__slide-content">
+                            <h1 class="hero__slide-title">Apple Watch
+                                Series 6</h1>
+                            <p class="hero__slide-text">уже в наличии</p>
+                        </div>
+                        <div class="hero__slide-media">
+                            <img src="img/slider.png" alt="Image" class="hero__slide-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+			<div class="__container">
+				<div class="block">
+					<h2 class="title">Хиты продаж</h2>
+					<a href="#" class="all-products">
+						Все товары
+						<svg width="13" height="8" class="all-product-icon">
+							<use xlink:href="img/arrow-right-blue.svg#arrow-right-blue" />
+						</svg>
+					</a>
+				</div>
+				<div class="product-carts margin">
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="__container">
+				<div class="block">
+					<h2 class="title">Новинки</h2>
+					<a href="#" class="all-products">
+						Все товары
+						<svg width="13" height="8" class="all-product-icon">
+							<use xlink:href="img/arrow-right-blue.svg#arrow-right-blue" />
+						</svg>
+					</a>
+				</div>
+				<div class="product-carts min-margin">
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="__container">
+				<div class="product-news">
+					<div class="product-news__block">
+						<h3 class="product-news__title">Скидки до 30% на сигвеи</h3>
+						<div class="product-news__media">
+							<img src="img/product-news/image.png" alt="Image" class="product-news__image">
+						</div>
+					</div>
+					<div class="product-news__block">
+						<h3 class="product-news__title">Неделя смарт часов</h3>
+						<div class="product-news__media">
+							<img src="img/product-news/image2.png" alt="Image" class="product-news__image">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="__container">
+				<div class="block">
+					<h2 class="title">Сигвеи</h2>
+					<a href="#" class="all-products">
+						Все товары
+						<svg width="13" height="8" class="all-product-icon">
+							<use xlink:href="img/arrow-right-blue.svg#arrow-right-blue" />
+						</svg>
+					</a>
+				</div>
+				<div class="product-carts margin">
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинки</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="__container">
+				<div class="block">
+					<h2 class="title">Моноколеса</h2>
+					<a href="#" class="all-products">
+						Все товары
+						<svg width="13" height="8" class="all-product-icon">
+							<use xlink:href="img/arrow-right-blue.svg#arrow-right-blue" />
+						</svg>
+					</a>
+				</div>
+				<div class="product-carts min-margin">
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинки</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="__container">
+				<div class="product-news">
+					<div class="product-news__block">
+						<h3 class="product-news__title">Распродажа до — 50%</h3>
+						<div class="product-news__media">
+							<img src="img/product-news/image3.png" alt="Image" class="product-news__image">
+						</div>
+					</div>
+					<div class="product-news__block">
+						<h3 class="product-news__title">Smart Balance Premium по специальной цене</h3>
+						<div class="product-news__media">
+							<img src="img/product-news/image4.png" alt="Image" class="product-news__image">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="__container">
+				<div class="block">
+					<h2 class="title">Электровелосипеды</h2>
+					<a href="#" class="all-products">
+						Все товары
+						<svg width="13" height="8" class="all-product-icon">
+							<use xlink:href="img/arrow-right-blue.svg#arrow-right-blue" />
+						</svg>
+					</a>
+				</div>
+				<div class="product-carts margin">
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинки</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+					<div class="product-cart">
+						<div class="product-cart__top">
+							<p class="product-cart__top-text green">Новинка</p>
+							<p class="product-cart__top-text red">Хит продаж</p>
+						</div>
+
+						<div class="product-cart__media">
+							<img src="img/product-cart/product-image.jpg" alt="Image" class="product-cart__image">
+						</div>
+						<p class="product-cart__company">Сигвеи</p>
+						<p class="product-cart__name">
+							Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+						</p>
+						<div class="product-cart__feedback">
+							<div class="product-cart__stars">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+								<img src="img/product-cart/icon-star.svg" alt="Icon" class="product-cart__icon">
+							</div>
+							<div class="product-cart__comments">
+								<img src="img/product-cart/icon-message.svg" alt="Icon" class="product-cart__icon">
+								<p class="product-cart__length">(17)</p>
+							</div>
+						</div>
+						<div class="product-cart__bottom">
+							<div class="product-cart__price">
+								<p class="product-cart__discount">5400 ₽</p>
+								<p class="product-cart__current-price">4990 ₽</p>
+								<p class="product-cart__discount-desc">
+									<span class="product-cart__discount-desc-text">20%</span>
+									— 1 000 ₽
+								</p>
+							</div>
+							<div class="product-cart__btns">
+								<a href="#" data-on-click class="product-cart__btn like"></a>
+								<a href="#" data-on-click class="product-cart__btn compare"></a>
+							</div>
+						</div>
+						<div class="product-cart__bottom-btn">
+							<a href="#" class="product-cart__btn btn-blue-border">Купить в 1 клик</a>
+							<a href="#" data-on-click class="product-cart__bascet"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="__container">
+				<div class="block">
+					<h2 class="title">Новости</h2>
+					<a href="#" class="all-products">
+						Все товары
+						<svg width="13" height="8" class="all-product-icon">
+							<use xlink:href="img/arrow-right-blue.svg#arrow-right-blue" />
+						</svg>
+					</a>
+				</div>
+				<div class="product-news">
+					<div href="#" class="product-news__block column">
+						<a href="#" class="product-news__news-title">Открытие нового магазина</a>
+						<p class="product-news__text">
+							Разнообразный и богатый опыт говорит нам, что консультация с широким активом требует
+							от нас анализа анализа существующих паттернов поведения
+						</p>
+						<div class="product-news__bottom">
+							<a href="#" class="all-products">
+								Подробнее
+								<svg width="13" height="8" class="all-product-icon">
+									<use xlink:href="img/arrow-right-blue.svg#arrow-right-blue" />
+								</svg>
+							</a>
+							<p class="product-news__date">05 июня 2021</p>
+						</div>
+					</div>
+					<div href="#" class="product-news__block column">
+						<a href="#" class="product-news__news-title">Работа в праздничные дни</a>
+						<p class="product-news__text">
+							Принимая во внимание показатели успешности, социально-экономическое развитие играет
+							определяющее значение для вывода текущих активов
+						</p>
+						<div class="product-news__bottom">
+							<a href="#" class="all-products">
+								Подробнее
+								<svg width="13" height="8" class="all-product-icon">
+									<use xlink:href="img/arrow-right-blue.svg#arrow-right-blue" />
+								</svg>
+							</a>
+							<p class="product-news__date">05 июня 2021</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top">
+            <div class="footer__block">
+                <div class="footer__media">
+                    <img src="img/logo.svg" alt="Image" class="footer__ligo">
+                </div>
+                <a href="tel:+79581119503" class="footer__phone">+7 (958) 111-95-03</a>
+                <a href="tel:+78126605054" class="footer__phone">+7 (812) 660-50-54</a>
+                <p class="footer__date">Пн-вс: с 10:00 до 21:00</p>
+                <p class="footer__text">Проспект Стачек 67 к.5</p>
+                <p class="footer__text">Лиговский проспект 205</p>
+                <p class="footer__text">Гражданский проспект, 116 к.5</p>
+            </div>
+            <div class="footer__block">
+                <h3 class="footer__title">Для клиента</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Как купить</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Доставка и оплата</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Кредит</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Политика конфиденциальности</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Вопросы и ответы (F.A.Q.)</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Сервис и гарантия</a></li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <h3 class="footer__title">О магазине</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Отзывы</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Наши преимущества</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">История компании</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Сотрудничество</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Партнёрская программа</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Вакансии</a></li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <h3 class="footer__title">Сотрудничество</h3>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Оптом</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Дропшиппинг</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__soc">
+                <a href="#" class="footer__soc-link">
+                    <img src="img/icons/twitter-icon.svg" alt="Icon" class="footer__soc-icon">
+                </a>
+                <a href="#" class="footer__soc-link">
+                    <img src="img/icons/facebook-icon.svg" alt="Icon" class="footer__soc-icon">
+                </a>
+                <a href="#" class="footer__soc-link">
+                    <img src="img/icons/vk-icon.svg" alt="Icon" class="footer__soc-icon">
+                </a>
+                <a href="#" class="footer__soc-link">
+                    <img src="img/icons/instagram-icon.svg" alt="Icon" class="footer__soc-icon">
+                </a>
+            </div>
+            <p class="footer__text-left">SmartТехника © 2021 Все права защищены</p>
+            <p class="footer__text-right">Разработка: websl.ru</p>
+        </div>
+    </div>
+</footer>
+		<div class="bottom-menu">
+    <ul class="bottom-menu__list">
+        <li class="bottom-menu__item">
+            <a href="#" class="bottom-menu__link">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/home-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Главная</p>
+            </a>
+        </li>
+        <li class="bottom-menu__item">
+            <a data-popup-link="3" href="#" class="bottom-menu__link">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/menu-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Каталог</p>
+            </a>
+        </li>
+        <li class="bottom-menu__item">
+            <a href="#" class="bottom-menu__link">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/cart-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Корзина</p>
+            </a>
+        </li>
+        <li class="bottom-menu__item">
+            <a data-popup-link="5" href="#" class="bottom-menu__link">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/search-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Поиск</p>
+            </a>
+        </li>
+        <li class="bottom-menu__item">
+            <a data-popup-link="4" href="#" class="bottom-menu__link ellipse">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/more-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Ещё</p>
+            </a>
+        </li>
+    </ul>
+</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20220705112328"></script>
+</body>
+
+</html>

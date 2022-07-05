@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&family=Inter&family=Roboto&family=Source+Sans+Pro&display=swap&_v=20220705112328"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220705112328">
+    <title>Мій сайт</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header checkout">
+    <div class="header__top">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <img src="img/logo.svg" alt="Image" class="header__image">
+            </a>
+            <div class="header__content">
+                <div class="header__phone-links">
+                    <a href="tel:+78126605054" class="header__phone">+7 (812) 660-50-54</a>
+                    <a href="tel:+79581119503" class="header__phone">+7 (958) 111-95-03</a>
+                </div>
+                <p class="header__text">Пн-вс: с 10:00 до 21:00</p>
+            </div>
+            <div class="header__links">
+                <form action="#" data-view-click class="header__form">
+                    <div class="header__label">
+                        <button class="header__btn-search">
+                            <img src="img/icons/search-icon.svg" alt="Icon" class="header__icon">
+                        </button>
+                        <p class="header__input">Поиск</p>
+                    </div>
+                </form>
+                <a href="#" class="header__link icon">
+                    <img src="img/icons/eye-icon.svg" alt="Icon" class="header__icon">
+                </a>
+                <a href="#" class="header__link icon">
+                    <img src="img/icons/like-icon.svg" alt="Icon" class="header__icon">
+                </a>
+                <a href="#" class="header__link icon">
+                    <img src="img/icons/compare-icon.svg" alt="Icon" class="header__icon">
+                </a>
+                <a href="#" class="header__link icon bascet">
+                    <img src="img/icons/bascet-icon.svg" alt="Icon" class="header__icon">
+                </a>
+                <a data-popup-link="1" href="#" class="header__btn btn-blue">Войти</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="header__open-input">
+    <div class="header-input__container">
+        <form action="#" class="header-input__form">
+            <input type="text" class="header-input__input" placeholder="Введите запрос, например «Smart balance»">
+            <a href="#" class="header-input__close">
+                <img src="img/icons/exit-icon.svg" alt="Icon" class="header-input__icon">
+            </a>
+        </form>
+    </div>
+    <div class="header-input__shadow"></div>
+</div>
+		<main class="main">
+			<div class="__container">
+				<h2 class="title">Оформление заказа</h2>
+			</div>
+			<section class="checkout">
+    <div class="checkout__container">
+        <article class="checkout__article">
+            <h3 class="checkout__block-title">Ваш заказ</h3>
+            <ul class="checkout__list">
+                <li class="checkout__item">
+                    <div class="checkout__media">
+                        <img src="img/product-cart/product-image.jpg" alt="Icon" class="checkout__image">
+                    </div>
+                    <div class="checkout__content">
+                        <p class="checkout__name">
+                            Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+                        </p>
+                        <div class="checkout__quantity">
+                            <a data-quantity-min="1" href="#" class="checkout__min">-</a>
+                            <p data-quantity-num="1" class="checkout__num">1</p>
+                            <a data-quantity-max="1" href="#" class="checkout__max">+</a>
+                        </div>
+                        <div class="checkout__price">
+                            <p class="checkout__discount">5400 ₽</p>
+                            <p class="checkout__current-price">4990 ₽</p>
+                        </div>
+                        <a href="#" class="checkout__delete">
+                            <img src="img/icons/delete-icon2.svg" alt="Icon" class="checkout__icon">
+                        </a>
+                    </div>
+                </li>
+                <li class="checkout__item">
+                    <div class="checkout__media">
+                        <img src="img/product-cart/product-image.jpg" alt="Icon" class="checkout__image">
+                    </div>
+                    <div class="checkout__content">
+                        <p class="checkout__name">
+                            Гироскутер Smart Balance Well 6.5 Хип-Хоп (АКВАЗАЩИТА)
+                        </p>
+                        <div class="checkout__quantity">
+                            <a data-quantity-min="2" href="#" class="checkout__min">-</a>
+                            <p data-quantity-num="2" class="checkout__num">1</p>
+                            <a data-quantity-max="2" href="#" class="checkout__max">+</a>
+                        </div>
+                        <div class="checkout__price">
+                            <p class="checkout__current-price">4990 ₽</p>
+                        </div>
+                        <a href="#" class="checkout__delete">
+                            <img src="img/icons/delete-icon2.svg" alt="Icon" class="checkout__icon">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </article>
+        <article class="checkout__article">
+            <h3 class="checkout__block-title not-active">Способ получения</h3>
+            <form action="#" class="checkout__form">
+                <div data-form-radio-group="1" class="checkout__form-top">
+                    <label for="select-city" class="checkout__form-label">
+                        Ваш город
+                        <select id="select-city" class="checkout__form-select">
+                            <option value="1" class="checkout__form-option">Санкт-Петербург</option>
+                        </select>
+                    </label>
+                    <label data-label-radio="1" for="checkout-radio1" class="checkout__form-radio-label checked">
+                        <input checked data-input-radio="1" type="radio" name="checkout-radio" id="checkout-radio1"
+                            class="checkout__form-radio-input">
+                        Доставка
+                    </label>
+                    <label data-label-radio="1" for="checkout-radio2" class="checkout__form-radio-label">
+                        <input data-input-radio="1" type="radio" name="checkout-radio" id="checkout-radio2"
+                            class="checkout__form-radio-input">
+                        Самовывоз
+                    </label>
+                </div>
+                <div class="checkout__form-bottom">
+                    <label for="select-date" class="checkout__form-label">
+                        Дата
+                        <select id="select-date" class="checkout__form-select">
+                            <option value="1" class="checkout__form-option">Завтра, 11 июля, вс</option>
+                        </select>
+                    </label>
+                    <label for="input-live" class="checkout__form-label">
+                        Улица, дом/корпус
+                        <input id="input-live" type="text" class="checkout__form-input">
+                    </label>
+                    <label for="select-time" class="checkout__form-label">
+                        Время
+                        <select id="select-time" class="checkout__form-select">
+                            <option value="1" class="checkout__form-option">
+                                15:00–18:00 <span>(бесплатно)</span>
+                            </option>
+                        </select>
+                    </label>
+                    <label for="input-home" class="checkout__form-label">
+                        Квартира
+                        <input type="text" id="input-home" class="checkout__form-input">
+                    </label>
+                    <label for="textarea-comment" class="checkout__form-label textarea">
+                        Комментарий курьеру
+                        <textarea id="textarea-comment" class="checkout__form-textarea"></textarea>
+                    </label>
+                </div>
+                <div class="checkout__form-map">
+                    <div class="checkout__form-map-blocks">
+                        <div class="checkout__form-map-left">
+                            <h4 class="checkout__form-map-title">Товар доступен в 15 магазинах</h4>
+                            <ul data-form-radio-group="3" class="checkout__form-map-list">
+                                <li class="checkout__form-map-item">
+                                    <label for="input-map-radio1" class="checkout__form-map-label">
+                                        <label data-label-radio="3" for="input-map-radio1"
+                                            class="checkout__form-map-label-radio checked">
+                                            <input checked name="form-map-radio" id="input-map-radio1"
+                                                data-input-radio="3" type="radio" class="checkout__form-map-radio">
+                                        </label>
+                                        <div class="checkout__form-map-content">
+                                            <h6 class="checkout__form-map-name">г. Санкт-Петербург, Бульвар
+                                                Новаторов, 75</h6>
+                                            <p class="checkout__fomr-map-date">ПН-ВС 09:00 — 22:00</p>
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="checkout__form-map-item">
+                                    <label for="input-map-radio2" class="checkout__form-map-label">
+                                        <label data-label-radio="3" for="input-map-radio2"
+                                            class="checkout__form-map-label-radio">
+                                            <input name="form-map-radio" type="radio" id="input-map-radio2"
+                                                data-input-radio="" 3 class="checkout__form-map-radio">
+                                        </label>
+                                        <div class="checkout__form-map-content">
+                                            <h6 class="checkout__form-map-name">г. Санкт-Петербург, пер. Матюшенко,
+                                                28</h6>
+                                            <p class="checkout__fomr-map-date">ПН-ВС 09:00 — 22:00</p>
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="checkout__form-map-item">
+                                    <label for="input-map-radio3" class="checkout__form-map-label">
+                                        <label data-label-radio="3" for="input-map-radio3"
+                                            class="checkout__form-map-label-radio">
+                                            <input name="form-map-radio" type="radio" id="input-map-radio3"
+                                                data-input-radio="3" class="checkout__form-map-radio">
+                                        </label>
+                                        <div class="checkout__form-map-content">
+                                            <h6 class="checkout__form-map-name">г. Санкт-Петербург, пр-кт.
+                                                Просвещения, 87, литер А, корп. 1 корп</h6>
+                                            <p class="checkout__fomr-map-date">ПН-ВС 09:00 — 22:00</p>
+                                        </div>
+                                    </label>
+                                </li>
+                                <li class="checkout__form-map-item">
+                                    <label for="input-map-radio4" class="checkout__form-map-label">
+                                        <label data-label-radio="3" for="input-map-radio4"
+                                            class="checkout__form-map-label-radio">
+                                            <input name="form-map-radio" type="radio" id="input-map-radio4"
+                                                data-input-radio="3" class="checkout__form-map-radio">
+                                        </label>
+                                        <div class="checkout__form-map-content">
+                                            <h6 class="checkout__form-map-name">г. Санкт-Петербург, пер. Матюшенко,
+                                                28</h6>
+                                            <p class="checkout__fomr-map-date">ПН-ВС 09:00 — 22:00</p>
+                                        </div>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="checkout__form-map-right">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d611.7523474990778!2d2.266316246241316!3d47.85760558585847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5111a5ee56533%3A0x11cb8f86d6214523!2sChambres%20La%20Mar%C3%A9chalerie!5e1!3m2!1sru!2sfr!4v1655115007542!5m2!1sru!2sfr"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </article>
+        <a href="#" class="checkout__btn btn-blue-border phone">Показать еще 10</a>
+        <article class="checkout__article">
+            <h3 class="checkout__block-title not-active">Способ оплаты</h3>
+            <form action="#" class="checkout__form-pay">
+                <select id="select-pay" class="checkout__select-pay">
+                    <option value="1" class="checkout__option-pay">Наличными</option>
+                </select>
+            </form>
+        </article>
+        <article class="checkout__article">
+            <h3 class="checkout__block-title not-active">Получатель</h3>
+            <form action="#" class="checkout__geting-form">
+                <label for="input-name" class="checkout__geting-label">
+                    Имя
+                    <input id="input-name" type="text" class="checkout__geting-input" placeholder="Например, Иван">
+                </label>
+                <label for="input-first-name" class="checkout__geting-label">
+                    Фамилия
+                    <input type="text" id="input-first-name" class="checkout__geting-input"
+                        placeholder="Например, Иванов">
+                </label>
+                <label for="input-phone" class="checkout__geting-label">
+                    Номер телефона
+                    <input type="text" id="input-phone" class="checkout__geting-input" placeholder="+7 (9__) ___-__-__">
+                </label>
+                <label for="input-mail" class="checkout__geting-label">
+                    Эл. почта
+                    <input type="text" id="input-mail" class="checkout__geting-input"
+                        placeholder="Например,  smart@gmail.com">
+                </label>
+                <label for="input-checkbox-geting" class="checkout__geting-label bottom">
+                    <label data-check-box-label="1" for="input-checkbox-geting" class="checkout__geting-label-checkbox">
+                        <input data-check-box-input="1" type="checkbox" id="input-checkbox-geting"
+                            class="checkout__geting-input-checkbox">
+                    </label>
+                    <span class="checkout__geting-text">Не перезванивать мне для подтверждения заказа</span>
+                </label>
+            </form>
+        </article>
+        <div class="checkout__result-content">
+            <div class="checkout__result-block">
+                <h4 class="checkout__result-title">Итого</h4>
+                <div class="checkout__result-row">
+                    <p class="checkout__result-left">2 товара на сумму</p>
+                    <p class="checkout__result-right">22 580 ₽</p>
+                </div>
+                <div class="checkout__result-row first">
+                    <p class="checkout__result-left">Стоимость доставки</p>
+                    <p class="checkout__result-right">бесплатно</p>
+                </div>
+                <div class="checkout__result-row">
+                    <p class="checkout__result-left-pay">К оплате</p>
+                    <p class="checkout__result-left-end-pay">22 580 ₽</p>
+                </div>
+                <a href="#" class="checkout__btn btn-blue result">Оформить заказ</a>
+            </div>
+            <form action="#" class="checkout__result-pay">
+                <label data-check-box-label="3" for="input-checkbox-result" class="checkout__result-pay-label">
+                    <input data-check-box-input="3" type="checkbox" id="input-checkbox-result"
+                        class="checkout__result-checkbox">
+                </label>
+                <div class="checkout__result-pay-content">
+                    <p class="checkout__result-text">
+                        Подтверждая заказ, я принимаю условия
+                    </p>
+                    <a href="#" class="checkout__resutl-link">пользовательского соглашения</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+		</main>
+
+		<div class="bottom-menu">
+    <ul class="bottom-menu__list">
+        <li class="bottom-menu__item">
+            <a href="#" class="bottom-menu__link">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/home-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Главная</p>
+            </a>
+        </li>
+        <li class="bottom-menu__item">
+            <a data-popup-link="3" href="#" class="bottom-menu__link">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/menu-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Каталог</p>
+            </a>
+        </li>
+        <li class="bottom-menu__item">
+            <a href="#" class="bottom-menu__link">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/cart-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Корзина</p>
+            </a>
+        </li>
+        <li class="bottom-menu__item">
+            <a data-popup-link="5" href="#" class="bottom-menu__link">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/search-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Поиск</p>
+            </a>
+        </li>
+        <li class="bottom-menu__item">
+            <a data-popup-link="4" href="#" class="bottom-menu__link ellipse">
+                <div class="bottom-menu__media">
+                    <img src="img/bottom-menu/more-icon.svg" alt="Icon" class="bottom-menu__icon">
+                </div>
+                <p class="bottom-menu__text">Ещё</p>
+            </a>
+        </li>
+    </ul>
+</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20220705112328"></script>
+</body>
+
+</html>
